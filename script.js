@@ -11,7 +11,7 @@ function increaseCounts(className, idName) {
     return document.getElementById(idName).innerText;
 }
 
-console.log(increaseCounts('heart-icon', 'count-hearts'));
+increaseCounts('heart-icon', 'count-hearts');
 
 let calls = document.getElementsByClassName('call-btn');
 for (let index = 0; index < calls.length; index++) {
@@ -22,7 +22,7 @@ for (let index = 0; index < calls.length; index++) {
 
         if (countCoins < 20) {
             alert("You don't have enough coins for calling.");
-            
+
         }
         else {
             let serviceName = calls[index].parentNode.parentNode.childNodes[3].innerText;
@@ -31,7 +31,6 @@ for (let index = 0; index < calls.length; index++) {
 
             document.getElementById('count-coins').innerText = totalCoins;
 
-            alert(`Calling ${serviceName} ${serviceNumber}...`);
             let div = document.createElement('div');
             div.innerHTML = `<div class="flex p-4 items-center justify-between bg-[#fafafa] mb-2">
                     <div>
@@ -52,10 +51,14 @@ document.getElementById('clear-btn').addEventListener('click', function() {
 let copies = document.getElementsByClassName('copy-btn');
 for (let index = 0; index < copies.length; index++) {
     copies[index].addEventListener('click', function() {
-        alert('The service number is copied to clipboard.')
-        let serviceNumber = copies[index].parentNode.parentNode.childNodes[7].innerText;
-        navigator.clipboard.writeText(serviceNumber);
+        alert('Hotline number copied to clipboard')
+        let hotlineNumber = copies[index].parentNode.parentNode.childNodes[7].innerText;
+        navigator.clipboard.writeText(hotlineNumber);
     })
 }
 
-console.log(increaseCounts('copy-btn', 'count-copies'));
+increaseCounts('copy-btn', 'count-copies');
+
+document.getElementById('clear-btn').addEventListener('mouseenter', function() {
+    
+})
