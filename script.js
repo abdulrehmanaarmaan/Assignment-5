@@ -33,12 +33,12 @@ for (let index = 0; index < calls.length; index++) {
 
             let div = document.createElement('div');
             div.innerHTML = `<div class="flex p-4 items-center justify-between bg-[#fafafa] mb-2">
-                    <div>
-                       <h1 id="selected-option" class="font-[600] text-[18px]/[22px] max-w-[215px] mb-1">${serviceName}</h1>
-                       <h1 id="selected-number" class="text-[18px] text-[#5c5c5c]">${serviceNumber}</h1>
-                   </div>
-                   <h1 id="selection-time" class="text-[#111111] text-[18px] font-[400]">${new Date().toLocaleTimeString()}</h1>
-                </div>`
+                <div>
+                   <h1 id="selected-option" class="font-[600] text-[18px]/[22px] max-w-[215px] mb-1">${serviceName}</h1>
+                   <h1 id="selected-number" class="text-[18px] text-[#5c5c5c]">${serviceNumber}</h1>
+                </div>
+                <h1 id="selection-time" class="text-[#111111] text-[18px] font-[400]">${new Date().toLocaleTimeString()}</h1>
+            </div>`
             document.getElementById('calls-cards-container').append(div);
         }
     })
@@ -58,7 +58,3 @@ for (let index = 0; index < copies.length; index++) {
 }
 
 increaseCounts('copy-btn', 'count-copies');
-
-document.getElementById('clear-btn').addEventListener('mouseenter', function() {
-    
-})
