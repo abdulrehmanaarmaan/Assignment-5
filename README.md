@@ -17,3 +17,35 @@ Ans. Event Delegation is a technique that uses Event Bubbling to handle events e
 5. What is the difference between preventDefault() and stopPropagation() methods?
 
 Ans. preventDefault() method prevents the browser's default behaviour of an event whereas stopPropagation() method stops the process of Event Bubbling.
+
+### App Name
+Emergency Service
+
+### Description
+A frontend focused web project built to practice UI development, component structure and responsive layouts.
+
+### Live URL
+https://abdulrehmanaarmaan.github.io/Assignment-5/
+
+### Screenshot
+<img width="900" height="1080" alt="image" src="https://github.com/user-attachments/assets/0295ce82-f799-4848-94f5-3926198db755" />
+
+### Technologies
+
+-HTML
+
+-Tailwind CSS
+
+### Setup Instructions
+1. Clone the repository.
+2. Open with live server.
+
+### Run The Project
+
+Open with live server.
+
+### Clone The Repositories
+- https://github.com/abdulrehmanaarmaan/Assignment-5
+
+
+
