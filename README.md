@@ -18,8 +18,6 @@ Ans. Event Delegation is a technique that uses Event Bubbling to handle events e
 
 Ans. preventDefault() method prevents the browser's default behaviour of an event whereas stopPropagation() method stops the process of Event Bubbling.
 
-
-
 ### App Name
 Emergency Service
 
@@ -46,7 +44,7 @@ https://abdulrehmanaarmaan.github.io/Assignment-5/
 
 Open with live server.
 
-### Clone The Repositories
+### Clone The Repository
 - https://github.com/abdulrehmanaarmaan/Assignment-5
 
 
